@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
+import Dashboard from '../dashboard/dashboard'
 
 class WelcomeContainer extends Component {
-    state = {  }
+    state = { 
+        companies: []
+     }
+
     render() { 
         return ( 
-            <div>
+            <>
                 <h1>Welcome!!</h1>
-            </div>
+                <Dashboard />
+            </>
          );
     }
 }
