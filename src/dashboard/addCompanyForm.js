@@ -37,7 +37,6 @@ class AddCompanyForm extends Component {
             return data
         } catch (event) {
             console.log(event)
-            return event
         }
     }
 
